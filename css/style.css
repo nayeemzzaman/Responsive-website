@@ -59,11 +59,11 @@ p{
     background-color: rgba(255, 249, 244, 1);
 }
 
-.blogs, .third-section{
+.three-leyar, .third-section{
     display: grid;
     grid-gap: 0px;
 }
-.blogs{
+.three-leyar{
     grid-template-rows: repeat(3, 1fr);
 }
 .thumbnil img{
@@ -71,12 +71,12 @@ p{
     margin-right: 20px;
     margin-left: 10px;
 }
-.blog{
+.single-leyar{
     display: flex;
     align-items: center;
     height: 120px;
 }
-.blog-info{
+.single-leyar-text{
     height: 80px;
     width: 250px;
 }
@@ -128,7 +128,7 @@ p{
     max-width: 550px;
 }
 .last-section{
-    background-color:#73D2E6 ;
+    background-color: rgb(247, 134, 86); ;
 }
 .icon-style{
     font-size: 50px;
@@ -138,12 +138,12 @@ p{
     padding-top: 50px;
     color: white;
 }
+.info-desk h4{
+    font-size: 30px;
+}
 .footer{
     font-size: 15px;
     letter-spacing: 2px;
-}
-@media (max-width:992px){
-    
 }
 @media (max-width:992px){
     .third-section{
@@ -152,21 +152,45 @@ p{
     .shoe-cardfooter{
         flex-direction: column;
     }
+    .card-style{
+        margin-left: 15px;
+        height: 500px;
+        width: 450px;
+    }
+    .shoe-cardfooter{
+        flex-direction: row;
+    }
+    .shoe-cardfooter h3{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .nav-style{
+        height: 45px; 
+        margin-left: 30px;
+    }
+    .navbar-custom{
+        position: relative;
+        left: 5px;
+    }
+    .last-desk{
+        padding-bottom: 15px;
+    }
 }
 @media (max-width:688px){
-    .blogs{
+    .three-leyar{
         grid-template-rows: repeat(1, 1fr);
     }
-    .blog{
+    .single-leyar{
         display: block;
         text-align: center;
         height: 250px;
         width: 400px;
     }
-    .blog-info{
+    .single-leyar-text{
         height: 100px;
         width: 300px;
         margin-left: 30px;
+        padding-top: 20px;
     }
     .shoe-cardfooter{
         flex-direction: row;
