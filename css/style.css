@@ -1,0 +1,195 @@
+*{
+    border: 0;
+    padding:0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+section{
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    color:rgba(54, 57, 88, 1);
+}
+h3{
+    font-size: 30px;
+    color:rgba(54, 57, 88, 1);
+}
+h5{
+    font-size: 30px;
+    color:rgba(54, 57, 88, 1);
+    font-weight: bold;
+}
+.info-desk a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    font-size: 20px;
+}
+.nav-style{
+    height: 40px; 
+    margin-left: 100px;
+}
+.navbar-custom{
+    position: relative;
+    left: 800px;
+}
+#orange{
+    color: rgba(250, 128, 76, 1);
+}
+#blue{
+    color:rgba(54, 57, 88, 1)
+}
+p{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.first-image{
+    height: 450px;
+    width: 450px;
+}
+.header-style{
+    background-color: rgba(255, 249, 244, 1);
+}
+
+.blogs, .third-section{
+    display: grid;
+    grid-gap: 0px;
+}
+.blogs{
+    grid-template-rows: repeat(3, 1fr);
+}
+.thumbnil img{
+    width: 80px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+.blog-info{
+    height: 80px;
+    width: 250px;
+}
+.third-section{
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.shoe-cardfooter{
+    border: 0;
+    background-color: white;
+    justify-content: center;
+
+}
+.shoe-cardfooter h3{
+    color: rgba(250, 128, 76, 1);
+    font-weight:900;
+    text-align: center;
+    padding-top: 10px;
+}
+.buttonstyle{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(48, 48, 248);
+    margin-left: auto;
+    height: 60px;
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.shoe-image{
+    height: 311px;
+    width: 311px;
+    background-color: rgb(248, 248, 248);
+    margin: 20px;
+    border-radius: 20px;
+}
+.card-style{
+    height: 550px;
+    width: 370px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    border: 0;
+}
+.third-section{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.last-image{
+    max-width: 550px;
+}
+.last-section{
+    background-color:#73D2E6 ;
+}
+.icon-style{
+    font-size: 50px;
+    padding: 5px;
+}
+.info-desk{
+    padding-top: 50px;
+    color: white;
+}
+.footer{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+@media (max-width:992px){
+    
+}
+@media (max-width:992px){
+    .third-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .shoe-cardfooter{
+        flex-direction: column;
+    }
+}
+@media (max-width:688px){
+    .blogs{
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .blog{
+        display: block;
+        text-align: center;
+        height: 250px;
+        width: 400px;
+    }
+    .blog-info{
+        height: 100px;
+        width: 300px;
+        margin-left: 30px;
+    }
+    .shoe-cardfooter{
+        flex-direction: row;
+    }
+    .last-image{
+        max-width: 400px;
+    }
+    .card-style{
+        margin-left: 3px;
+        height: 500px;
+        width: 450px;
+    }
+    .nav-style{
+        height: 45px; 
+        margin-left: 30px;
+    }
+    .navbar-custom{
+        position: relative;
+        left: 5px;
+    }
+    .thumbnil img{
+        width: 120px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+}

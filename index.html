@@ -1,11 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reigner Shoes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header class="container header-style">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="nav-style img-fluid" src="images/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse collapse navbar-collapse navbar-custom" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row g-5 mt-5 align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img class="d-block img-fluid first-image" src="images/shoe-first.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h1 id="orange">NIKE REACT</h1>
+                <h1 id="blue">INFINITY RUN 2</h1>
+                <p>Lorem Ipsum is simply dummy <br>text of the printing and typesetting industry.</p>
+                <button class="buttonstyle btn btn-primary btn-lg">BUY NOW</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="shoes" class="container first-section">
+            <h2 style="margin-top: 70px; margin-bottom: 50px;">CASUAL SHOES</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="shadow p-3 mb-5 bg-white rounded card-style card h-100">
+                    <img class="shoe-image" src="images/nike1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike Shoe</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer d-flex  shoe-cardfooter">
+                        <h3>$234</h3>
+                        <button type="button" class="buttonstyle btn btn-primary"><img width="15%" src="images/shopping-cart 1.png" alt="">BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="shadow p-3 mb-5 bg-white rounded card-style card h-100">
+                    <img class="shoe-image" src="images/nike2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sneakers Skate Shoe</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer d-flex shoe-cardfooter">
+                       <h3>$234</h3>
+                       <button type="button" class="buttonstyle btn btn-primary"><img width="20%" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="shadow p-3 mb-5 bg-white rounded card-style card h-100">
+                    <img class="shoe-image" src="images/nike3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sneakers Basketball shoe</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer d-flex shoe-cardfooter">
+                        <h3>$234</h3>
+                        <button type="button" class="buttonstyle btn btn-primary"><img width="20%" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section  class="container second-section">
+            <h2 style="margin-top: 70px; margin-bottom: 50px;">FORMAL SHOES</h2>
+            <div class=" row row-cols-1 row-cols-md-3 g-4 ">
+                <div class="col">
+                  <div class="shadow p-3 mb-5 bg-white rounded card-style card h-100">
+                    <img class="shoe-image" src="images/formal1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Prestige High-Cut Leather</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer d-flex shoe-cardfooter">
+                        <h3>$234</h3>
+                        <button type="button" class="buttonstyle btn btn-primary"><img width="20%" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="shadow p-3 mb-5 bg-white rounded card-style card h-100">
+                    <img class="shoe-image" src="images/formal2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Slip-On Formal Shoe</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer d-flex shoe-cardfooter">
+                       <h3>$234</h3>
+                       <button type="button" class="buttonstyle btn btn-primary"><img width="20%" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="shadow p-3 mb-5 bg-white rounded card-style card h-100">
+                    <img class="shoe-image" src="images/formal3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Slip-On Formal Shoe</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer d-flex shoe-cardfooter">
+                        <h3>$234</h3>
+                        <button type="button" class="buttonstyle btn btn-primary"><img width="20%" src="images/shopping-cart 1.png" alt=""> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="container">
+            <div class="third-section">
+                <div class="blogs">
+                    <div class=" rounded-3 blog shadow-sm p-3 mb-5 bg-white rounded">
+                        <div class="thumbnil">
+                            <img src="images/image 12.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3>Find the Perfect Fit</h3>
+                            <p>Everybody is different, which is why we offer styles for every body</p>
+                        </div>
+                    </div>
+                    <div class="rounded-3 blog shadow-sm p-3 mb-5 bg-white rounded">
+                        <div class="thumbnil">
+                            <img src="images/image 13.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3>Free Exchanges</h3>
+                            <p>One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-3 blog shadow-sm p-3 mb-5 bg-white rounded">
+                        <div class="thumbnil">
+                            <img src="images/image 14.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3>Contact Our Seller</h3>
+                            <p>They are here to help you. That's quite literally what we pay them for</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img  class=" last-image img-fluid" src="images/cart.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class=" last-section">
+            <div class="container info-desk">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Customer Care</h4>
+                        <hr style="height: 2px;">
+                        <p><a href="">FAQS</a></p>
+                        <p><a href="">STORE LOCATION</a></p>
+                        <p><a href="">SHIPPING</a></p>
+                        <p><a href="">PRIVACY POLICY</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>About Us</h4>
+                        <hr style="height: 2px;">
+                        <p>Hebe is a destination for style seekers. Located in Masterton's boutique Kuripuni Village, Hebe is lovingly and carefully curated by Owner and Buyer, Dani Burkhart. Dedicated to NZ designed, ethical fashion and accessories- Hebe is a beautiful style edit.<br>
+                        Spliced on the rack, you will discover a mix of your favourite boutique labels, lounge-wear and lifestyle products. Hebe presents small, regular collections from designers that are limited in nature with a high rotation. For all women, all sizes, Hebe is the go-to fashion boutique of the Wairarapa. Purchases made at Hebe support suppliers and makers within NZ- shop local, shop small!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Contact With Us</h4>
+                        <hr style="height: 2px;">
+                        <a href=""><i class="fab fa-facebook-square icon-style"></i></a>
+                        <a href=""><i class="fab fa-whatsapp-square icon-style"></i></a>
+                        <a href=""><i class="fab fa-instagram icon-style"></i></a>
+                        <a href=""><i class="fab fa-linkedin icon-style"></i></a>
+                        <a href=""><i class="fab fa-twitter-square icon-style"></i></a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer text-center mt-5">
+                <small>©2020. Penguin Fashion. All rights reserved. Sofia, Bulgaria.</small>
+            </footer>
+        </section>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
