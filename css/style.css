@@ -106,6 +106,9 @@ p{
     border-radius: 8px;
     margin-bottom: 20px;
 }
+.buttonstyle img{
+    padding-right: 5px;
+}
 .shoe-image{
     height: 311px;
     width: 311px;
